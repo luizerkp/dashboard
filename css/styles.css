@@ -49,6 +49,7 @@ li {
     min-height: 224px;
     grid-row: 3/4;
 }
+
 .nav-item {
     display: flex;
     gap: 24px;
@@ -56,6 +57,7 @@ li {
     font-size: 24px;
     list-style: none;
 }
+
 .nav-item>a {
     color:black;
     text-decoration: none;
@@ -65,6 +67,7 @@ li {
     height: 30px;
     width: 30px;
 }
+
 .wrapper {
     min-height: 100vh;
     display: grid;
@@ -75,11 +78,13 @@ li {
     'footer';
     flex-wrap: nowrap;
 }
+
 .header {
     height: 200px;
     grid-area: 'header';
     background-color: #f8fafc;
 }
+
 .container {
     grid-area: 'container';
     overflow: auto;
@@ -97,10 +102,12 @@ li {
     justify-content: center;
     align-items: baseline;
 }
+
 #github-log {
     padding-left: 3px;
     padding-right: 8px;
 }
+
 #github-log > img {
     height: 20px;
     width: 20px;
